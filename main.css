@@ -193,7 +193,7 @@
     }
 }
 
-#about, #skills, #projects, #contact {
+#about, #skills, #projects{
     padding: 50px;
     position: absolute;
     z-index: 10;
@@ -205,7 +205,7 @@
     transition-duration: 1s;
     transform: translateX(-100%) rotateY(180deg);
 }
-#about h2, #skills h2, #projects h2, #contact h2 {
+#about h2, #skills h2, #projects h2,{
     letter-spacing: 2px;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -384,13 +384,12 @@
 #home.show, 
 #about.show,
 #skills.show,
-#projects.show,
-#contact.show {
+#projects.show{
     transform: translateX(0%) rotateY(0deg);
 }
 
 @media(max-width: 768px) {
-    #about, #skills, #projects, #contact {
+    #about, #skills, #projects{
         margin-top: 20px;
     }
 }
